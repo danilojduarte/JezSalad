@@ -20,6 +20,10 @@
     --p-font:1rem;
 }
 
+body {
+    background: #f6eee3ba;
+}
+
 header {
     position: fixed;
     right: 0;
@@ -30,7 +34,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 17px 11%;
+    padding: 17px 12%;
     border-bottom: 1px solid var(--secundary-color);
     transition: all .45s ease;
 }
@@ -45,7 +49,7 @@ header {
     font-size: var(--p-font);
     color: var(--text-color);
     font-weight: 400;
-    padding: 8px 20px;
+    padding: 6px 20px;
     margin: 0 5px;
     background: transparent;
     border-radius: 20px;
@@ -56,4 +60,22 @@ header {
 }
 .navbar a.active{
     background: var(--primary-color);
+}
+#menu-icon{
+    color: var(--primary-color);
+    font-size: 33px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.header-btn {
+    background: var(--primary-color);
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 400;
+    padding: 6px 20px;
+    margin: 0 5px;
+    border-radius: 20px;
+    transition: all .45s ease;
+    border: none;
 }
