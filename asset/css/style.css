@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 :root {
@@ -13,4 +14,46 @@
     --secundary-color:#ffc87a;
     --bg-color:#fff6ea;
     --text-color:#585858;
+
+    --big-font:4.3rem;
+    --h2-font:2.2rem;
+    --p-font:1rem;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 17px 11%;
+    border-bottom: 1px solid var(--secundary-color);
+    transition: all .45s ease;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    display: flex;
+}
+.navbar a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 400;
+    padding: 8px 20px;
+    margin: 0 5px;
+    background: transparent;
+    border-radius: 20px;
+    transition: all .45s ease;
+}
+.navbar a:hover{
+    background: var(--primary-color);
+}
+.navbar a.active{
+    background: var(--primary-color);
 }
