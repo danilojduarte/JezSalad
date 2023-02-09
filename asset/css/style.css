@@ -24,6 +24,7 @@ body {
     /* background: #f6eee3ba; */
 }
 
+/* Styles Header Section */
 header {
     position: fixed;
     right: 0;
@@ -90,13 +91,14 @@ header {
     transition: all .45s ease;
     cursor: pointer;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     background: transparent;
     color: var(--primary-color);
 }
 
 
-/* Estilizando Home */
+/* Styles Home Section */
 section {
     padding: 100px 11% 90px;
 }
@@ -162,12 +164,13 @@ section {
     color: #828282;
     margin-bottom: 10px;
 }
-.home a{
+
+.home a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 130%;    
+    line-height: 130%;
     color: #FFFFFF;
 }
 
@@ -179,6 +182,7 @@ section {
     padding: 20px 14px;
     gap: 16px;
     margin-bottom: 10px;
+    margin-top: 12px;
     width: 142px;
     height: 38px;
 
@@ -188,7 +192,8 @@ section {
     border-radius: 100px;
     transition: all .45s ease;
 }
-.btn:hover{
+
+.btn:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -223,6 +228,49 @@ section {
     line-height: 160%;
     /* identical to box height, or 26px */
 
+
+    color: #828282;
+}
+
+/* Styles Menu Section */
+.menu {}
+
+.menu-text {
+    /* height: 80vh;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.menu-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+
+    letter-spacing: -0.02em;
+
+    color: #585858;
+}
+
+.menu-text span {
+    color: var(--primary-color);
+}
+
+.menu-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    /* or 36px */
+
+    letter-spacing: -0.02em;
 
     color: #828282;
 }
