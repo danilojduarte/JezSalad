@@ -251,10 +251,8 @@ section {
     font-weight: 600;
     font-size: 48px;
     line-height: 140%;
-    /* or 67px */
 
     letter-spacing: -0.02em;
-
     color: #585858;
 }
 
@@ -268,9 +266,11 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 180%;
-    /* or 36px */
 
     letter-spacing: -0.02em;
-
     color: #828282;
+}
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
