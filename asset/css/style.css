@@ -100,13 +100,13 @@ header {
 
 /* Styles Home Section */
 section {
-    padding: 100px 11% 90px;
+    padding: 100px 10% 100px;
 }
 
 .home {
     height: 100vh;
     width: 100%;
-    background: #efebe5;
+    background: #f7f7f6d4;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -270,7 +270,109 @@ section {
     letter-spacing: -0.02em;
     color: #828282;
 }
+
 .menu-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: auto auto;
+    gap: 3rem;
+    height: 80vh;
+    width: 80vw;
+
+    background: #FFFFFF;
+    border: 1px solid #FFF0DA;
+    border-radius: 50px;
+
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 3.5rem;
+
+    width: 350px;
+    height: 550px;
+
+    background: #f0efeed4;
+
+    box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2);
+    border-radius: 50px;
+
+    transition: all .45s ease;
+}
+
+.menu-card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 50px 80px -30px rgba(17, 12, 0, 0.2);
+    border-radius: 50px;
+}
+
+.menu-card h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: -0.02em;
+}
+
+.menu-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+
+    letter-spacing: -0.02em;
+
+    /* #575757 */
+
+    color: black;
+}
+
+.menu-card a {
+    color: var(--primary-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: -0.02em;
+}
+
+.menu-card-btn {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 170px;
+    height: 49px;
+
+    align-items: flex-end;
+    padding-top: 10px;
+
+    transition: all .20s ease;
+}
+
+.menu-card-btn:hover {
+    background: #FFE8C8;
+    color: black;
+    font-weight: 400;
+    border-radius: 12px;
 }
