@@ -57,10 +57,12 @@ header {
     background: transparent;
     border-radius: 20px;
     transition: all .45s ease;
+    cursor: pointer;
 }
 
 .navbar a:hover {
     background: var(--primary-color);
+    color: #fff;
 }
 
 .navbar a.active {
@@ -78,13 +80,19 @@ header {
 .header-btn {
     background: var(--primary-color);
     font-size: var(--p-font);
-    color: var(--text-color);
+    color: #fff;
     font-weight: 400;
     padding: 6px 20px;
     margin: 0 5px;
     border-radius: 20px;
     transition: all .45s ease;
     border: none;
+    transition: all .45s ease;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background: transparent;
+    color: var(--primary-color);
 }
 
 
