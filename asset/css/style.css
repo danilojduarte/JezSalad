@@ -21,7 +21,7 @@
 }
 
 body {
-    /* background: #f6eee3ba; */
+    background: #fff;
 }
 
 /* Styles Header Section */
@@ -284,7 +284,7 @@ section {
     height: 95vh;
     width: 80vw;
 
-    background: #faf5f5;
+    background: #fffafa;
     border: 1px solid #FFF0DA;
     border-radius: 30px;
 }
