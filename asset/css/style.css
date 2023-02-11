@@ -44,7 +44,8 @@ header {
     border-bottom: 1px solid var(--secundary-color);
     transition: all .45s ease;
 }
-header.sticky{
+
+header.sticky {
     background: #fff;
     padding: 14px 11%;
 }
@@ -433,7 +434,7 @@ section {}
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
- 
+
     color: #999999;
 
     flex: none;
@@ -466,7 +467,8 @@ section {}
     border-radius: 20px;
     transition: all .45s ease;
 }
-.about-card:hover{
+
+.about-card:hover {
     background: var(--secundary-color);
 }
 
@@ -534,6 +536,15 @@ section {}
 }
 
 /* Styles Products Section */
-.products {
+.products-geral {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:2rem
+}
 
+.products-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
 }
