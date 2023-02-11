@@ -44,6 +44,10 @@ header {
     border-bottom: 1px solid var(--secundary-color);
     transition: all .45s ease;
 }
+header.sticky{
+    background: #fff;
+    padding: 14px 11%;
+}
 
 .logo img {
     width: 100%;
