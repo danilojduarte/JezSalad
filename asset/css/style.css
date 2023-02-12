@@ -392,11 +392,13 @@ section {}
 .about {
     display: flex;
     flex-direction: row;
+    margin: auto;
     gap: 3rem;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 100vh;
     background: #FFF6EA;
+    border-radius: 22px;
 }
 
 .about-geral {
@@ -592,6 +594,7 @@ section {}
     top: 0px;
     transition: all .45s ease;
 }
+
 .product-card-01:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -622,6 +625,7 @@ section {}
     top: 0px;
     transition: all .45s ease;
 }
+
 .product-card-02:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -642,7 +646,7 @@ section {}
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    
+
 }
 
 .product-card-03 {
@@ -653,6 +657,7 @@ section {}
     top: 0px;
     transition: all .45s ease;
 }
+
 .product-card-03:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -673,4 +678,21 @@ section {}
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+}
+
+/* Styles Subscribe Section */
+.subscribe-geral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 550px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFF1DE;
+    border-radius: 50px;
+
 }
