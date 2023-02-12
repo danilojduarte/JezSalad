@@ -543,6 +543,41 @@ section {}
     gap: 2rem
 }
 
+.products-text h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: var(--primary-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.products-text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 10px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #585858;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
 .products-cards {
     display: flex;
     flex-direction: row;
@@ -555,7 +590,13 @@ section {}
     height: 521px;
     left: 0px;
     top: 0px;
+    transition: all .45s ease;
 }
+.product-card-01:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .product-card-01 h5 {
     font-family: 'Poppins';
     font-style: normal;
@@ -564,7 +605,7 @@ section {}
     line-height: 130%;
     padding-top: 420px;
     padding-left: 10px;
-        
+
     color: #FFFFFF;
 
     flex: none;
@@ -572,13 +613,20 @@ section {}
     align-self: stretch;
     flex-grow: 0;
 }
+
 .product-card-02 {
     background-image: url(../img/products-img-02.png);
     width: 363.33px;
     height: 521px;
     left: 0px;
     top: 0px;
+    transition: all .45s ease;
 }
+.product-card-02:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .product-card-02 h5 {
     font-family: 'Poppins';
     font-style: normal;
@@ -587,18 +635,42 @@ section {}
     line-height: 130%;
     padding-top: 420px;
     padding-left: 10px;
-        
+
     color: #FFFFFF;
 
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+    
 }
+
 .product-card-03 {
     background-image: url(../img/products-img-03.png);
     width: 363.33px;
     height: 521px;
     left: 0px;
     top: 0px;
+    transition: all .45s ease;
+}
+.product-card-03:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.product-card-03 h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    padding-top: 420px;
+    padding-left: 10px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
