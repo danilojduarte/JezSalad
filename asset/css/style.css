@@ -537,14 +537,68 @@ section {}
 
 /* Styles Products Section */
 .products-geral {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap:2rem
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem
 }
 
 .products-cards {
     display: flex;
     flex-direction: row;
     gap: 3rem;
+}
+
+.product-card-01 {
+    background-image: url(../img/products-img-01.png);
+    width: 363.33px;
+    height: 521px;
+    left: 0px;
+    top: 0px;
+}
+.product-card-01 h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    padding-top: 420px;
+    padding-left: 10px;
+        
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.product-card-02 {
+    background-image: url(../img/products-img-02.png);
+    width: 363.33px;
+    height: 521px;
+    left: 0px;
+    top: 0px;
+}
+.product-card-02 h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    padding-top: 420px;
+    padding-left: 10px;
+        
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.product-card-03 {
+    background-image: url(../img/products-img-03.png);
+    width: 363.33px;
+    height: 521px;
+    left: 0px;
+    top: 0px;
 }
