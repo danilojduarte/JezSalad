@@ -809,3 +809,34 @@ section {}
     order: 5;
     flex-grow: 0;
 }
+
+.contact-logo p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    padding-top: 20px;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-logo h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-top: 90px;
+
+    color: #2B2B2B;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
