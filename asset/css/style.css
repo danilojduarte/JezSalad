@@ -694,7 +694,8 @@ section {}
     background: #FFF1DE;
     border-radius: 50px;
 }
-.subscribe-text{
+
+.subscribe-text {
     padding: 40px;
 }
 
@@ -787,4 +788,24 @@ section {}
     right: 2px;
     cursor: pointer;
 }
+
 /* Styles Contact Section */
+.contact-geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 135px;
+    gap: 147px;
+
+    width: 1423px;
+    height: 318px;
+
+    border: 1px solid #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
