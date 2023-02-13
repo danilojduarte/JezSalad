@@ -695,6 +695,72 @@ section {}
     background: #FFF1DE;
     border-radius: 50px;
 }
+
+.subscribe-text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+
+    color: var(--primary-color);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.subscribe-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #585858;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.subscribe-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* #575757 */
+
+    color: #575757;
+
+    opacity: 0.7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
 .subscribe-email form {
     padding-top: 20px;
     margin: auto;
@@ -702,8 +768,9 @@ section {}
     width: 550px;
     max-width: 100%;
 }
+
 .subscribe-email form input:first-child {
-    
+
     display: inline-block;
     width: 100%;
     padding: 18px 130px 16px 15px;
@@ -722,57 +789,7 @@ section {}
     border-radius: 30px;
     background: var(--primary-color);
     color: white;
-    
+
     right: 2px;
     cursor: pointer;
 }
-
-
-
- /*
-.subscribe-form input {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 8px 10px 31px;
-    gap: 16px;
-
-    width: 700px;
-    height: 80px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 8px 20px -30px rgba(151, 109, 0, 0.08);
-    border-radius: 100px;
-
-    Inside auto layout
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.subscribe-btn {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 16px;
-    gap: 16px;
-
-    width: 170px;
-    height: 64px;
-
-    #FB9333
-
-    background: #FB9333;
-    border-radius: 100px;
-
-    /* Inside auto layout 
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-} */
