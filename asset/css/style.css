@@ -145,12 +145,6 @@ section {
     padding: 16px;
     gap: 16px;
 }
-
-.home-text h1 span {
-    color: #FB9333;
-
-}
-
 .home-text h1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -195,9 +189,6 @@ section {
     margin-top: 12px;
     width: 142px;
     height: 38px;
-
-    /* #FB9333 */
-
     background: #FB9333;
     border-radius: 100px;
     transition: all .45s ease;
@@ -243,10 +234,6 @@ section {
 }
 
 /* Styles Menu Section */
-section {}
-
-.menu {}
-
 .menu-text {
     /* height: 80vh;
     width: 100%; */
@@ -708,7 +695,6 @@ section {}
     text-align: center;
     letter-spacing: -0.02em;
 
-
     color: var(--primary-color);
 
     flex: none;
@@ -739,7 +725,6 @@ section {}
     font-weight: 500;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
 
     text-align: center;
     letter-spacing: -0.02em;
@@ -765,7 +750,6 @@ section {}
 }
 
 .subscribe-email form input:first-child {
-
     display: inline-block;
     width: 100%;
     padding: 18px 130px 16px 15px;
@@ -798,7 +782,7 @@ section {}
     padding: 50px 135px;
     gap: 100px;
 
-    width: 1423px;
+    width: 1323px;
     height: 318px;
 
     border: 1px solid #FB9333;
@@ -848,6 +832,12 @@ section {}
     gap: 1rem;
 
     width: 40px;
+    transition: all .45s ease;
+}
+.contact-feature a:hover{
+    color: var(--primary-color);
+    font-weight: 600;
+
 }
 
 .contact-feature h4 {
@@ -949,13 +939,17 @@ section {}
     display: flex;
     flex-direction: row;
     gap: 3rem;
+    transition: all .25s ease;
+}
+.contact-icons a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
 }
 
 .ri-twitter-line {
     color: var(--primary-color);
     font-size: 32px;
 }
-
 .ri-linkedin-box-fill {
     color: var(--primary-color);
     font-size: 32px;
