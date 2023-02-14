@@ -883,7 +883,9 @@ section {}
 .contact-getIn {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 8px;
+    justify-content: center;
+    
 }
 
 .contact-getIn h4 {
@@ -893,6 +895,7 @@ section {}
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
+    margin-bottom: 20px;
 
     font-feature-settings: 'pnum' on, 'lnum' on;
 
