@@ -802,6 +802,7 @@ section {}
     height: 318px;
 
     border: 1px solid #FB9333;
+    border-radius: 10px;
 
     /* Inside auto layout */
 
