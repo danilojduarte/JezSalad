@@ -114,7 +114,7 @@ section {
 }
 
 .home {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background: #f7f7f6d4;
     position: relative;
@@ -189,14 +189,16 @@ section {
     margin-top: 12px;
     width: 142px;
     height: 38px;
+
+
     background: #FB9333;
     border-radius: 100px;
     transition: all .45s ease;
 }
 
 .btn:hover {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .home-static {
@@ -375,7 +377,7 @@ section {
     border-radius: 12px;
 }
 
-/* Styles Abou us Section */
+/* Styles About us Section */
 .about {
     display: flex;
     flex-direction: row;
@@ -391,6 +393,7 @@ section {
 .about-geral {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 
 }
 
@@ -403,7 +406,6 @@ section {
     font-weight: 600;
     font-size: 48px;
     line-height: 48px;
-    /* or 133% */
 
     font-feature-settings: 'pnum' on, 'lnum' on;
 
@@ -459,6 +461,8 @@ section {
 
 .about-card:hover {
     background: var(--secundary-color);
+    transform:  translateY(-5px);
+    cursor: pointer;
 }
 
 .about-card img {
@@ -508,7 +512,7 @@ section {
     width: 221px;
     height: 168px;
     left: 24px;
-    top: 242px;
+    top: 242px; 
 
     font-family: 'Poppins';
     font-style: normal;
@@ -594,7 +598,7 @@ section {
     font-size: 24px;
     line-height: 130%;
     padding-top: 420px;
-    padding-left: 10px;
+    padding-left: 30px;
 
     color: #FFFFFF;
 
@@ -625,7 +629,7 @@ section {
     font-size: 24px;
     line-height: 130%;
     padding-top: 420px;
-    padding-left: 10px;
+    padding-left: 30px;
 
     color: #FFFFFF;
 
@@ -657,7 +661,7 @@ section {
     font-size: 24px;
     line-height: 130%;
     padding-top: 420px;
-    padding-left: 10px;
+    padding-left: 30px;
 
     color: #FFFFFF;
 
