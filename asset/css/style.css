@@ -1065,6 +1065,14 @@ footer h3 {
         grid-template-columns: 1fr;
         text-align: center;
         height: 117vh;
+        justify-content: center;
+        
+    }
+    .home-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
     }
     .home-img img {
         width: 500px;
@@ -1076,6 +1084,15 @@ footer h3 {
     }
 }
 @media (max-width: 580px){
+    .home{
+        display: flex;
+        align-items: center;
+    }
+    .home-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
     :root {
         --big-font: 3rem;
         --h2-font: 1.8rem;
