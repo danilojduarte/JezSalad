@@ -117,7 +117,7 @@ section {
     height: 120vh;
     width: 100vw;
     background: #f7f7f6d4;
-    position: relative;
+    /* position: relative; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -129,6 +129,10 @@ section {
     height: auto;
     padding-top: 45px;
 }
+.home-text {
+    display: flex;
+    flex-direction: column;
+}
 
 .home-text-inicio {
     color: var(--primary-color);
@@ -139,11 +143,10 @@ section {
     border-radius: 30px;
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: row; */
+    /* justify-content: center; */
     align-items: center;
     padding: 16px;
-    gap: 16px;
 }
 
 .home-text h1 {
@@ -161,7 +164,7 @@ section {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: var(--p-font);
     line-height: 160%;
 
     letter-spacing: -0.02em;
@@ -174,7 +177,7 @@ section {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: var(--p-font);
     line-height: 130%;
     color: #FFFFFF;
 }
@@ -997,7 +1000,8 @@ footer h3 {
 /* Responsividade */
 @media (max-width: 1700px) {
     header {
-        padding: 12px 3%;
+        padding: 18px 8%;
+        /* Altura do menu-nav e espaço entre os itens */
     }
 
     header.sticky {
@@ -1005,7 +1009,7 @@ footer h3 {
     }
 
     section {
-        padding: 80px 3% 70px;
+        padding: 80px 6% 250px;
     }
 
     .home {
