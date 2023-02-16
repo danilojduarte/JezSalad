@@ -40,7 +40,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 17px 12%;
+    padding: 17px 11%;
     border-bottom: 1px solid var(--secundary-color);
     transition: all .45s ease;
 }
@@ -110,7 +110,7 @@ header.sticky {
 
 /* Styles Home Section */
 section {
-    padding: 100px 11% 100px;
+    padding: 100px 11% 90px;
 }
 
 .home {
