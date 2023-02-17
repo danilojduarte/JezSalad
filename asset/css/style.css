@@ -245,7 +245,7 @@ section {
 .menu-card p {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 180%;
     /* or 29px */
@@ -261,7 +261,7 @@ section {
     color: var(--primary-color);
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 180%;
 
