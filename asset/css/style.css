@@ -161,3 +161,133 @@ section {
     width: 100%;
     height: auto;
 }
+
+/* Inicio section Menu */
+
+.menu-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menu-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--h2-font);
+    line-height: 140%;
+
+    letter-spacing: -0.02em;
+    color: #585858;
+}
+.menu-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--p-font);
+    line-height: 180%;
+
+    letter-spacing: -0.02em;
+    color: #828282;
+}
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 80px;
+    background: #fffafa;
+    border: 1px solid #FFF0DA;
+    border-radius: 30px;
+    text-align: center;
+
+    height: 95vh;
+    width: 100%;
+}
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+    gap: 3.5rem;
+    text-align: start;
+    width: 250px;
+    height: 550px;
+
+    background: #fff;
+
+    box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2);
+    border-radius: 12px;
+
+    transition: all .45s ease;
+}
+
+.menu-card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: #faf4ee;
+    color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0px 50px 80px -30px rgba(17, 12, 0, 0.2);
+    border-radius: 12px;
+}
+
+.menu-card h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--p-font);
+    line-height: 180%;
+    letter-spacing: -0.02em;
+}
+
+.menu-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+
+    letter-spacing: -0.02em;
+
+    /* #575757 */
+
+    color: black;
+}
+
+.menu-card a {
+    color: var(--primary-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+
+    letter-spacing: -0.02em;
+}
+
+.menu-card-btn {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 170px;
+    height: 49px;
+
+    align-items: flex-end;
+    padding-top: 10px;
+
+    transition: all .20s ease;
+}
+
+.menu-card-btn:hover {
+    background: #FFE8C8;
+    color: black;
+    font-weight: 400;
+    border-radius: 12px;
+}
