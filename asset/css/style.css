@@ -36,8 +36,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    padding: 25px 18%;
+    background: #fff;
+    padding: 20px 18%;
     z-index: 1000;
     transition: all .35s ease;
 }
