@@ -586,6 +586,7 @@ section {
 
 /* Inicio section Subscribe */
 .subscribe-geral {
+    
     display: flex;
     flex-direction: column;
     text-align: center;
