@@ -585,3 +585,16 @@ section {
 }
 
 /* Inicio section Subscribe */
+.subscribe-geral {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 550px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFF1DE;
+    border-radius: 50px;
+}
