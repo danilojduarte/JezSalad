@@ -832,11 +832,7 @@ section {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    /* or 24px */
-
-
-    /* #575757 */
-
+  
     color: #575757;
 }
 
@@ -899,3 +895,5 @@ footer h3 {
     color: var(--secundary-color);
     font-weight: 400;
 }
+
+/* Section Responsividade */
