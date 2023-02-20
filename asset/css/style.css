@@ -586,7 +586,7 @@ section {
 
 /* Inicio section Subscribe */
 .subscribe-geral {
-    
+
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -598,4 +598,90 @@ section {
 
     background: #FFF1DE;
     border-radius: 50px;
+}
+.subscribe-text {
+    padding: 40px;
+}
+.subscribe-text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: var(--primary-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.subscribe-text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--h2-font);
+    line-height: 140%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #585858;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.subscribe-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-top: 10px;
+
+
+    color: #575757;
+
+    opacity: 0.7;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.subscribe-email form {
+    padding-top: 20px;
+    margin: auto;
+    position: relative;
+    width: 550px;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.subscribe-email form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 18px 130px 16px 15px;
+    border: 2px solid var(--main-color);
+    outline: none;
+    border-radius: 30px;
+}
+
+.subscribe-email form input:last-child {
+    padding-top: 20px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: var(--primary-color);
+    color: white;
+
+    right: 2px;
+    cursor: pointer;
 }
