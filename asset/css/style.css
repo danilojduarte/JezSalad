@@ -685,3 +685,236 @@ section {
     right: 2px;
     cursor: pointer;
 }
+
+/* Inicio section Contact */
+
+.contact-geral {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    padding: 20px 20px;
+
+
+
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    /* padding: 50px 135px; */
+    /* gap: 100px;
+
+    width: 1323px;
+    height: 318px; */
+
+    border: 1px solid #FB9333;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+/* 
+    flex: none;
+    order: 5;
+    flex-grow: 0; */
+}
+
+.contact-logo p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    padding-top: 20px;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-logo h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-top: 90px;
+
+    color: #2B2B2B;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 40px;
+    transition: all .45s ease;
+}
+
+.contact-feature a:hover {
+    color: var(--primary-color);
+    font-weight: 600;
+
+}
+
+.contact-feature h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #FB9333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact-lista {
+    width: 35px;
+    height: 22px;
+    left: 0px;
+    top: 47px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #575757;
+    cursor: pointer;
+}
+
+.contact-getIn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+
+.contact-getIn h4 {
+    color: var(--primary-color);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* margin-bottom: 20px; */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ri-map-pin-line {
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.ri-mail-line {
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.ri-phone-line {
+    color: var(--primary-color);
+    font-size: 22px;
+}
+
+.contact-getIn p {
+    width: 197px;
+    height: 48px;
+    left: 60px;
+    top: 46px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    /* #575757 */
+
+    color: #575757;
+}
+
+.contact-midias {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    transition: all .25s ease;
+}
+
+.contact-icons a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
+}
+
+.ri-twitter-line {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+.ri-linkedin-box-fill {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+.ri-instagram-line {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+.contact-midias p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #575757;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Section Footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer h3 {
+    font-size: 18px;
+    color: var(--secundary-color);
+    font-weight: 400;
+}
