@@ -688,6 +688,10 @@ section {
 
 /* Inicio section Contact */
 
+section {
+    padding: 80px 11%;
+}
+
 .contact-geral {
     display: flex;
     flex-direction: row;
