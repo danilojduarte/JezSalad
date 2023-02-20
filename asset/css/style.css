@@ -696,39 +696,20 @@ section {
     
     width: 100%;
     margin: auto;
-    height: 300px;
+    height: 290px;
     left: 0px;
     top: 0px;
     padding: 20px 20px;
 
-
-
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    /* padding: 50px 135px; */
-    /* gap: 100px;
-
-    width: 1323px;
-    height: 318px; */
-
     border: 1px solid #FB9333;
     border-radius: 10px;
-
-    /* Inside auto layout */
-/* 
-    flex: none;
-    order: 5;
-    flex-grow: 0; */
 }
 
 .contact-logo p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--p-font);
     line-height: 160%;
 
     padding-top: 20px;
@@ -744,7 +725,7 @@ section {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--p-font);
     line-height: 150%;
     padding-top: 90px;
 
