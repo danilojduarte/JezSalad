@@ -939,7 +939,7 @@ footer h3 {
     }
 
     section {
-        padding: 70px 3%;
+        padding: 80px 8%;
         transition: .3s;
     }
 }
@@ -991,7 +991,7 @@ footer h3 {
     }
 
     section {
-        padding: 80px 3%;
+        padding: 80px 8%;
     }
 
     :root {
@@ -1097,4 +1097,15 @@ footer h3 {
         align-items: flex-start;
         justify-content: center;
         }
+}
+@media (max-width: 400px) {
+    .home {
+        grid-template-columns: 1fr;
+        height: 100vh;
+        grid-gap: 1rem;
+    }
+
+    .home-text {
+        text-align: center;
+    }
 }
